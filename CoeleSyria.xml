@@ -33,7 +33,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="2620.64" y="2822.21" z="249.688"/>
+		<Position x="2214.82" y="506.818" z="1308.26"/>
 		<Rotation angle="-0.00962664"/>
 		<Declination angle="1.03633"/>
 	</Camera>
@@ -106,6 +106,34 @@
 			<Position x="1483.75904" z="137.17637"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="22022"/>
+		</Entity>
+		<Entity uid="17">
+			<Template>skirmish/structures/default_civil_centre</Template>
+			<Player>3</Player>
+			<Position x="1971.51539" z="3466.16553"/>
+			<Orientation y="4.16025"/>
+			<Actor seed="50560"/>
+		</Entity>
+		<Entity uid="18">
+			<Template>skirmish/structures/default_civil_centre</Template>
+			<Player>3</Player>
+			<Position x="1432.50367" z="2105.84571"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="44376"/>
+		</Entity>
+		<Entity uid="19">
+			<Template>skirmish/structures/default_civil_centre</Template>
+			<Player>4</Player>
+			<Position x="903.65052" z="813.03016"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20928"/>
+		</Entity>
+		<Entity uid="20">
+			<Template>skirmish/structures/default_civil_centre</Template>
+			<Player>5</Player>
+			<Position x="2482.6084" z="636.61866"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="13252"/>
 		</Entity>
 	</Entities>
 	<Paths/>
