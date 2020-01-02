@@ -33,9 +33,9 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="2214.82" y="506.818" z="1308.26"/>
-		<Rotation angle="-0.00962664"/>
-		<Declination angle="1.03633"/>
+		<Position x="2622.07" y="2122.64" z="-205.327"/>
+		<Rotation angle="-0.0823199"/>
+		<Declination angle="0.858907"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
@@ -134,6 +134,13 @@
 			<Position x="2482.6084" z="636.61866"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="13252"/>
+		</Entity>
+		<Entity uid="21">
+			<Template>structures/ptol_civil_centre</Template>
+			<Player>0</Player>
+			<Position x="2496.44214" z="1680.26478"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36829"/>
 		</Entity>
 	</Entities>
 	<Paths/>
