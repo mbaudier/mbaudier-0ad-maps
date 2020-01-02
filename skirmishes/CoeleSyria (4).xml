@@ -33,19 +33,21 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="2094.9" y="1926.68" z="251.751"/>
-		<Rotation angle="0.435413"/>
-		<Declination angle="0.613374"/>
+		<Position x="2715.18" y="522.058" z="1926.42"/>
+		<Rotation angle="-0.101816"/>
+		<Declination angle="0.249243"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
+  "AISeed": 0,
   "CircularMap": false,
   "Description": "Lebanon and Syria around 0 AD.",
   "GameType": "conquest",
   "Keywords": [],
   "LockTeams": false,
-  "Name": "Coele Syria",
+  "Name": "Coele Syria (4)",
   "PlayerData": [
+    "",
     {
       "Civ": "sele",
       "Name": "Tripoli"
@@ -64,7 +66,8 @@
     }
   ],
   "Preview": "",
-  "RevealMap": false
+  "RevealMap": false,
+  "VictoryConditions": []
 }
 ]]></ScriptSettings>
 	<Entities>
@@ -127,8 +130,8 @@
 		<Entity uid="25">
 			<Template>skirmish/structures/default_civil_centre</Template>
 			<Player>1</Player>
-			<Position x="2105.15723" z="2828.82837"/>
-			<Orientation y="2.35621"/>
+			<Position x="2666.79224" z="3565.20313"/>
+			<Orientation y="2.2461"/>
 			<Actor seed="61156"/>
 		</Entity>
 		<Entity uid="26">
