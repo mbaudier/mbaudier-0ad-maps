@@ -33,9 +33,9 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="1571.45" y="180.602" z="1927.28"/>
-		<Rotation angle="0"/>
-		<Declination angle="0.610865"/>
+		<Position x="2094.9" y="1926.68" z="251.751"/>
+		<Rotation angle="0.435413"/>
+		<Declination angle="0.613374"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
@@ -46,7 +46,6 @@
   "LockTeams": false,
   "Name": "Coele Syria",
   "PlayerData": [
-    null,
     {
       "Civ": "sele",
       "Name": "Tripoli"
