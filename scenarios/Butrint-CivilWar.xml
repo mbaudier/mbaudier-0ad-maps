@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="6">
+	<Environment>
+		<SkySet>default</SkySet>
+		<SunColor r="0.74902" g="0.74902" b="0.74902"/>
+		<SunElevation angle="0.785398"/>
+		<SunRotation angle="-0.785396"/>
+		<TerrainAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<UnitsAmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.894118"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.294118" g="0.34902" b="0.694118"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
+				<Height>55</Height>
+				<Waviness>4</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="3550.11" y="402.342" z="2261.02"/>
+		<Rotation angle="-1.28708"/>
+		<Declination angle="0.531411"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "CircularMap": true,
+  "Description": "An renegade Roman army tries to invade Butrint",
+  "GameType": "conquest",
+  "Keywords": [],
+  "LockTeams": false,
+  "Name": "Butrint (2)",
+  "PlayerData": [
+    {
+      "Civ": "rome"
+    },
+    {
+      "Civ": "rome"
+    }
+  ],
+  "Preview": "",
+  "RevealMap": false
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="11">
+			<Template>structures/athen_theatron</Template>
+			<Player>0</Player>
+			<Position x="2846.53223" z="2412.64527"/>
+			<Orientation y="-0.80102"/>
+			<Actor seed="44495"/>
+		</Entity>
+		<Entity uid="18">
+			<Template>units/rome_ship_fishing</Template>
+			<Player>0</Player>
+			<Position x="3092.98658" z="2554.71094"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50748"/>
+		</Entity>
+		<Entity uid="19">
+			<Template>units/rome_ship_fishing</Template>
+			<Player>0</Player>
+			<Position x="3107.40894" z="2556.06812"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="47515"/>
+		</Entity>
+		<Entity uid="20">
+			<Template>units/rome_ship_fishing</Template>
+			<Player>0</Player>
+			<Position x="3101.98926" z="2535.06397"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38745"/>
+		</Entity>
+		<Entity uid="21">
+			<Template>units/rome_ship_fishing</Template>
+			<Player>0</Player>
+			<Position x="3128.31885" z="2531.91553"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12722"/>
+		</Entity>
+		<Entity uid="22">
+			<Template>units/rome_ship_merchant</Template>
+			<Player>0</Player>
+			<Position x="3107.79737" z="2466.6731"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46310"/>
+		</Entity>
+		<Entity uid="23">
+			<Template>units/rome_ship_merchant</Template>
+			<Player>0</Player>
+			<Position x="3099.80127" z="2440.86426"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42892"/>
+		</Entity>
+		<Entity uid="24">
+			<Template>units/rome_ship_quinquereme</Template>
+			<Player>0</Player>
+			<Position x="3166.16236" z="2393.58912"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57073"/>
+		</Entity>
+		<Entity uid="25">
+			<Template>units/rome_ship_trireme</Template>
+			<Player>0</Player>
+			<Position x="3147.21338" z="2365.68677"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="14166"/>
+		</Entity>
+		<Entity uid="26">
+			<Template>units/rome_ship_bireme</Template>
+			<Player>0</Player>
+			<Position x="3128.92554" z="2343.67212"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5085"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>
