@@ -33,19 +33,21 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="3550.11" y="402.342" z="2261.02"/>
-		<Rotation angle="-1.28708"/>
-		<Declination angle="0.531411"/>
+		<Position x="2992.53" y="127.425" z="2325.3"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
+  "AISeed": 0,
   "CircularMap": true,
-  "Description": "An renegade Roman army tries to invade Butrint",
+  "Description": "A renegade Roman army tries to invade Butrint",
   "GameType": "conquest",
   "Keywords": [],
   "LockTeams": false,
   "Name": "Butrint (2)",
   "PlayerData": [
+    "",
     {
       "Civ": "rome"
     },
@@ -54,7 +56,10 @@
     }
   ],
   "Preview": "",
-  "RevealMap": false
+  "RevealMap": false,
+  "VictoryConditions": [
+    "conquest"
+  ]
 }
 ]]></ScriptSettings>
 	<Entities>
