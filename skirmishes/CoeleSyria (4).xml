@@ -33,9 +33,9 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="2715.18" y="522.058" z="1926.42"/>
-		<Rotation angle="-0.101816"/>
-		<Declination angle="0.249243"/>
+		<Position x="2813.7" y="2257.51" z="-1226.04"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
@@ -67,7 +67,9 @@
   ],
   "Preview": "",
   "RevealMap": false,
-  "VictoryConditions": []
+  "VictoryConditions": [
+    "conquest_structures"
+  ]
 }
 ]]></ScriptSettings>
 	<Entities>
@@ -77,13 +79,6 @@
 			<Position x="1797.76246" z="2627.6067"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37474"/>
-		</Entity>
-		<Entity uid="12">
-			<Template>skirmish/structures/default_civil_centre</Template>
-			<Player>2</Player>
-			<Position x="3529.92847" z="3349.43042"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="10941"/>
 		</Entity>
 		<Entity uid="13">
 			<Template>skirmish/structures/default_civil_centre</Template>
@@ -113,13 +108,6 @@
 			<Orientation y="4.16025"/>
 			<Actor seed="50560"/>
 		</Entity>
-		<Entity uid="20">
-			<Template>skirmish/structures/default_civil_centre</Template>
-			<Player>2</Player>
-			<Position x="2482.1377" z="632.18134"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="13252"/>
-		</Entity>
 		<Entity uid="24">
 			<Template>skirmish/structures/default_civil_centre</Template>
 			<Player>3</Player>
@@ -127,33 +115,46 @@
 			<Orientation y="2.35621"/>
 			<Actor seed="59257"/>
 		</Entity>
-		<Entity uid="25">
-			<Template>skirmish/structures/default_civil_centre</Template>
-			<Player>1</Player>
-			<Position x="2666.79224" z="3565.20313"/>
-			<Orientation y="2.2461"/>
-			<Actor seed="61156"/>
-		</Entity>
-		<Entity uid="26">
-			<Template>skirmish/structures/default_civil_centre</Template>
-			<Player>3</Player>
-			<Position x="1463.74866" z="2131.53272"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="57096"/>
-		</Entity>
-		<Entity uid="27">
-			<Template>skirmish/structures/default_civil_centre</Template>
-			<Player>4</Player>
-			<Position x="902.4925" z="819.21155"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="43664"/>
-		</Entity>
 		<Entity uid="28">
 			<Template>skirmish/structures/default_civil_centre</Template>
 			<Player>2</Player>
 			<Position x="3593.813" z="1840.80347"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="17101"/>
+		</Entity>
+		<Entity uid="61">
+			<Template>structures/cart_fortress</Template>
+			<Player>0</Player>
+			<Position x="2641.9673" z="3644.63209"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="28352"/>
+		</Entity>
+		<Entity uid="103">
+			<Template>structures/cart_civil_centre</Template>
+			<Player>0</Player>
+			<Position x="1473.43738" z="2131.27173"/>
+			<Orientation y="-1.39223"/>
+			<Actor seed="17779"/>
+		</Entity>
+		<Entity uid="183">
+			<Template>structures/cart_civil_centre</Template>
+			<Player>0</Player>
+			<Position x="3510.34498" z="3309.11646"/>
+			<Orientation y="-2.58806"/>
+			<Actor seed="6475"/>
+		</Entity>
+		<Entity uid="184">
+			<Template>skirmish/structures/default_civil_centre</Template>
+			<Player>2</Player>
+			<Position x="2483.1272" z="626.88733"/>
+			<Orientation y="-1.57081"/>
+		</Entity>
+		<Entity uid="185">
+			<Template>structures/cart_fortress</Template>
+			<Player>0</Player>
+			<Position x="827.88508" z="863.61255"/>
+			<Orientation y="2.00152"/>
+			<Actor seed="8976"/>
 		</Entity>
 	</Entities>
 	<Paths/>
