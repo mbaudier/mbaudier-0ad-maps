@@ -18,7 +18,7 @@
 				<Type>ocean</Type>
 				<Color r="0.294118" g="0.34902" b="0.694118"/>
 				<Tint r="0.27451" g="0.294118" b="0.584314"/>
-				<Height>55</Height>
+				<Height>55.5</Height>
 				<Waviness>4</Waviness>
 				<Murkiness>0.45</Murkiness>
 				<WindAngle>0</WindAngle>
@@ -33,7 +33,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="2992.53" y="127.425" z="2325.3"/>
+		<Position x="3084.85" y="1072.85" z="955.926"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
