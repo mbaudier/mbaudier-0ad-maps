@@ -33,9 +33,9 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="2516.6" y="1476.98" z="314.104"/>
-		<Rotation angle="0.177007"/>
-		<Declination angle="0.642898"/>
+		<Position x="2869.9" y="467.199" z="1992.36"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
 {
@@ -47,12 +47,27 @@
   "LockTeams": false,
   "Name": "Butrint (2)",
   "PlayerData": [
-    "",
     {
-      "Civ": "rome"
+      "Civ": "rome",
+      "Name": "Butrint",
+      "PopulationLimit": 300,
+      "Resources": {
+        "food": 1000,
+        "metal": 1000,
+        "stone": 1000,
+        "wood": 1000
+      }
     },
     {
-      "Civ": "rome"
+      "Civ": "rome",
+      "Name": "Invaders",
+      "PopulationLimit": 300,
+      "Resources": {
+        "food": 1000,
+        "metal": 1000,
+        "stone": 1000,
+        "wood": 1000
+      }
     }
   ],
   "Preview": "",
@@ -65,73 +80,171 @@
 	<Entities>
 		<Entity uid="11">
 			<Template>structures/athen_theatron</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="2846.53223" z="2412.64527"/>
 			<Orientation y="-0.80102"/>
 			<Actor seed="44495"/>
 		</Entity>
 		<Entity uid="18">
 			<Template>units/rome_ship_fishing</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="3092.98658" z="2554.71094"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="50748"/>
 		</Entity>
 		<Entity uid="19">
 			<Template>units/rome_ship_fishing</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="3107.40894" z="2556.06812"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="47515"/>
 		</Entity>
 		<Entity uid="20">
 			<Template>units/rome_ship_fishing</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="3101.98926" z="2535.06397"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="38745"/>
 		</Entity>
 		<Entity uid="21">
 			<Template>units/rome_ship_fishing</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="3128.31885" z="2531.91553"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="12722"/>
 		</Entity>
 		<Entity uid="22">
 			<Template>units/rome_ship_merchant</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="3107.79737" z="2466.6731"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="46310"/>
 		</Entity>
 		<Entity uid="23">
 			<Template>units/rome_ship_merchant</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="3099.80127" z="2440.86426"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="42892"/>
 		</Entity>
 		<Entity uid="24">
 			<Template>units/rome_ship_quinquereme</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="3166.16236" z="2393.58912"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="57073"/>
 		</Entity>
 		<Entity uid="25">
 			<Template>units/rome_ship_trireme</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="3147.21338" z="2365.68677"/>
-			<Orientation y="2.35621"/>
+			<Orientation y="0.63532"/>
 			<Actor seed="14166"/>
 		</Entity>
 		<Entity uid="26">
 			<Template>units/rome_ship_bireme</Template>
-			<Player>0</Player>
+			<Player>1</Player>
 			<Position x="3128.92554" z="2343.67212"/>
-			<Orientation y="2.35621"/>
+			<Orientation y="0.71279"/>
 			<Actor seed="5085"/>
+		</Entity>
+		<Entity uid="27">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>1</Player>
+			<Position x="2858.6045" z="2070.08082"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18415"/>
+		</Entity>
+		<Entity uid="28">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>1</Player>
+			<Position x="2853.28174" z="2062.43604"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="58952"/>
+		</Entity>
+		<Entity uid="29">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>1</Player>
+			<Position x="2868.65845" z="2047.0547"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11073"/>
+		</Entity>
+		<Entity uid="30">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>1</Player>
+			<Position x="2864.8125" z="2063.50904"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46752"/>
+		</Entity>
+		<Entity uid="31">
+			<Template>skirmish/units/default_infantry_melee_b</Template>
+			<Player>1</Player>
+			<Position x="2858.8313" z="2053.05079"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57314"/>
+		</Entity>
+		<Entity uid="32">
+			<Template>skirmish/units/default_cavalry</Template>
+			<Player>1</Player>
+			<Position x="2846.23511" z="2075.73829"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="42409"/>
+		</Entity>
+		<Entity uid="33">
+			<Template>skirmish/units/default_cavalry</Template>
+			<Player>1</Player>
+			<Position x="2841.46167" z="2056.12574"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62470"/>
+		</Entity>
+		<Entity uid="34">
+			<Template>skirmish/units/default_cavalry</Template>
+			<Player>1</Player>
+			<Position x="2853.40162" z="2046.56397"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17357"/>
+		</Entity>
+		<Entity uid="35">
+			<Template>skirmish/units/default_cavalry</Template>
+			<Player>1</Player>
+			<Position x="2871.07154" z="2038.42615"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29272"/>
+		</Entity>
+		<Entity uid="36">
+			<Template>skirmish/units/default_cavalry</Template>
+			<Player>1</Player>
+			<Position x="2881.49952" z="2064.04786"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29793"/>
+		</Entity>
+		<Entity uid="37">
+			<Template>skirmish/units/default_cavalry</Template>
+			<Player>1</Player>
+			<Position x="2869.93018" z="2085.75611"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2461"/>
+		</Entity>
+		<Entity uid="38">
+			<Template>skirmish/units/default_cavalry</Template>
+			<Player>1</Player>
+			<Position x="2875.3191" z="2062.43604"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30792"/>
+		</Entity>
+		<Entity uid="39">
+			<Template>skirmish/structures/default_civil_centre</Template>
+			<Player>1</Player>
+			<Position x="2869.89527" z="2523.08716"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="60041"/>
+		</Entity>
+		<Entity uid="40">
+			<Template>skirmish/structures/default_civil_centre</Template>
+			<Player>2</Player>
+			<Position x="491.12015" z="2355.80982"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4732"/>
 		</Entity>
 	</Entities>
 	<Paths/>
